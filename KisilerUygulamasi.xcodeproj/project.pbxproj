@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66678FB02CB2B03A00B2E650 /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66678FAF2CB2B03A00B2E650 /* KisilerHucre.swift */; };
 		66EA9DE52CABF0980008095C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA9DE42CABF0980008095C /* AppDelegate.swift */; };
 		66EA9DE72CABF0980008095C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA9DE62CABF0980008095C /* SceneDelegate.swift */; };
 		66EA9DE92CABF0980008095C /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA9DE82CABF0980008095C /* Anasayfa.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66678FAF2CB2B03A00B2E650 /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
 		66EA9DE12CABF0980008095C /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EA9DE42CABF0980008095C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EA9DE62CABF0980008095C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66678FAE2CB2B00500B2E650 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				66678FAF2CB2B03A00B2E650 /* KisilerHucre.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
 		66EA9DD82CABF0980008095C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		66EA9DF92CABF0F20008095C /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				66678FAE2CB2B00500B2E650 /* tableView */,
 				66EA9DFB2CABF1350008095C /* views */,
 			);
 			path = ui;
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66EA9DFD2CABF17C0008095C /* KisiKayıt.swift in Sources */,
+				66678FB02CB2B03A00B2E650 /* KisilerHucre.swift in Sources */,
 				66EA9DFF2CABF1940008095C /* KisiDetay.swift in Sources */,
 				66EA9DE92CABF0980008095C /* Anasayfa.swift in Sources */,
 				66EA9DE52CABF0980008095C /* AppDelegate.swift in Sources */,
